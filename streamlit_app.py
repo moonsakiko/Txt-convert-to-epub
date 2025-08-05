@@ -79,8 +79,8 @@ def create_epub(title, author, description, cover_image_bytes, chapters_data):
 
 st.set_page_config(layout="wide", page_title="TXT转EPUB转换器")
 
-st.title("📚 TXT to EPUB 电子书转换器 (优化版)")
-st.markdown("上传TXT文件或ZIP包，拖动排序，一键生成EPUB电子书。")
+st.title("📚 TXT to EPUB 电子书转换器💙")
+st.markdown("上传TXT文件或ZIP包，拖动排序，一键生成EPUB电子书。元数据在侧边栏设置。")
 
 # --- 回调函数：当输入改变时，清空已生成的EPUB ---
 def clear_generated_epub():
